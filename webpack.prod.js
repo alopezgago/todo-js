@@ -12,7 +12,7 @@ module.exports = {
         minimizer: [ new OptimizeCssAssetsPlugin() ]
     },
     output: {
-        filename: 'main.[contentHash].js'
+        filename: 'main.[contentHash].js',
     },
     module: {
         rules: [
